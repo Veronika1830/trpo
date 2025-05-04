@@ -3,7 +3,7 @@ import java.time.format.DateTimeFormatter;
 
 public class trpo {
     public static void main(String[] args) {
-       String lastName = "Tatuzha";
+       String lastName = "Tatyrzha";
         String firstName = "Veronika";
         LocalTime currentTime = LocalTime.now();
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("HH:mm:ss");
