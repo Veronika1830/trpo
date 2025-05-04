@@ -8,6 +8,6 @@ public class trpo {
         LocalTime currentTime = LocalTime.now();
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("HH:mm:ss");
         String formattedTime = currentTime.format(formatter);
-        System.out.println("Фамилия: " + lastName + ", Имя: " + firstName + ", Время: " + formattedTime);
+        System.out.println("lastName: " + lastName + ", firstName: " + firstName + ", Time: " + formattedTime);
     }
 }
